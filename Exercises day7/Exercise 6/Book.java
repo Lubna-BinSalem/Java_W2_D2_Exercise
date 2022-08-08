@@ -64,5 +64,12 @@ public class Book {
                 ", qty=" + qty +
                 '}';
     }
+    public String getAuthorNames(){
+        String names=authors[0].getName();
+        for (int i = 1; i < authors.length; i++) {
+            names=names+","+authors[i].getName();
+        }
+        return names;
+    }
 }
 
