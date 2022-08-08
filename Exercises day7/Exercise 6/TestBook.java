@@ -8,6 +8,8 @@ public class TestBook {
 
        Book b=new Book("Moby Dick", arr, 15);
         System.out.println(b.toString());
+        System.out.println(b.getAuthorNames());
+
 
     }
 }
